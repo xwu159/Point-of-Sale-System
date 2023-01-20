@@ -20,3 +20,4 @@ void line(void) {
 void info(void) {
 	printf("Name:\n\tXinyang Wu\nEmail:\n\txwu159@myseneca.ca\n");
 }
+// Fardad was here
