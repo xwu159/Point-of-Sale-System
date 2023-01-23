@@ -1,6 +1,6 @@
-Name:Xinyang Wu, Email:xwu159@myseneca.ca, Seneca Student ID:153821228, date:2023 January 22nd
-
 I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Name:Xinyang Wu, Email:xwu159@myseneca.ca, Seneca Student ID:153821228, date:2023 January 22nd
 
 1. Always remember the punctuation like always remember";" at the end of the command line, For scanf, there should be "&" before the arguments. It is critical and will change greatly if you add space or punctuation to the program.
 2. There are different solutions for each of the workshops, you need to know which is the fastest for the compiler, clearest for the user, and the most space-saving for the system. Like you can define d as average=(a+b+c)/3 separately or enter the definition or formula directly in the printf function.
