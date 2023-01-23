@@ -1,3 +1,7 @@
+/*Name:Xinyang Wu, Email:xwu159@myseneca.ca, Seneca Student ID:153821228, date:2023 January 22nd*/
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 void title(void);
 void line(void);
@@ -17,9 +21,8 @@ int main(void)
 	printf("EAC150: ");
 	scanf("%d",&c);
 	d=(a+b+c)/3;
-	printf("The average is :%d\n", d);
+	printf("The average is: %d\n", d);
 	line();
-
 	return 0;
 }
 void title(void) {
