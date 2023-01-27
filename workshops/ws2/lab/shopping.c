@@ -18,10 +18,10 @@ void shoppingStats(int noOfItems) {
 	int counter;
 	double price,sum,aver;
     printf("Please enter the price of the %d items bought...\n", noOfItems);
-    counter = 1;
     sum = 0;
-    while (counter <= noOfItems) {
-        printf("%d> ", counter);
+    counter = 0;
+    while (counter < noOfItems) {
+        printf("%d> ", counter+1);
         scanf("%lf", &price);
         sum += price;
         counter++;
