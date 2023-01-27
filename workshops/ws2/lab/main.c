@@ -5,8 +5,9 @@
 #include<stdio.h>
 
 void line(char fill, int length){
+	int i;
 	for (int i = 0; i < length; i++) {
-		printf("% c", fill);
+		printf('%c', fill);
 	}
 	printf("\n");
 }
