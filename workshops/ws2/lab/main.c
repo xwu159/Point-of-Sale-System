@@ -5,12 +5,18 @@
 #include<stdio.h>
 
 void line(char fill, int length);
+void shoppingStats(int noOfItems);
 
 int main(void) {
-	line('=', 20);
-	line('-', 40);
-	line('#', 60);
+	int noOfItems;
+	printf("Money Spending Calculator\n");
+	line('=', 25);
+	printf("How many items were bought?");
+	printf("\n> ");
+	scanf("%d",&noOfItems);
+	shoppingStats(noOfItems);
 	return 0;
 }
+
 
 
