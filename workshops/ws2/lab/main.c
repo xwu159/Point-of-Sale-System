@@ -4,13 +4,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
-void line(char fill, int length){
-	int i;
-	for (int i = 0; i < length; i++) {
-		printf('%c', fill);
-	}
-	printf("\n");
-}
+void line(char fill, int length);
 
 int main(void) {
 	line('=', 20);
@@ -18,4 +12,5 @@ int main(void) {
 	line('#', 60);
 	return 0;
 }
+
 
