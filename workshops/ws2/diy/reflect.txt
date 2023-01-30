@@ -1,0 +1,48 @@
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Name:Xinyang Wu
+Email:xwu159@myseneca.ca
+Seneca Student ID:153821228
+Date:2023 January 29nd
+
+1. I need to analyze the output first. How to break down the question in small steps. Is there any pattern? Is there any repeat? How can I use the loop? Is there any loop in another loop?
+2. I learned how to read the error/warning message, and study how to fix it. For example, I miss the #include<stdio.h> in the first line and generate an error.
+3. Always be careful when you write the code. A space matters. A semicolon matters. An extra letter, a small mistake or negligence can be a disaster. It is never overwhelming to be extremely serious about the code.
+4. I am stuck on the highlighted part. In the first beginning, I put the “int collum2=0;” at the wrong place, and I found the output result is not correct. After considering it for a while, I found the value of collum2 will change after the loop. After modifying it, I finally got the right answer.
+
+void rectangle(char leftTop, char top, char topRight,
+    char right, char rightButtom, char buttom,
+    char buttomLeft, char left, char fill,
+    int width, int height) {
+    int collum1 = 0;
+    int collum3 = 0;
+    int row = 0;
+  //int collum2 = 0; I put this line here at the first beginning//
+    printf("%c", leftTop);
+    while (collum1 < width - 2) {
+        printf("%c", top);
+        collum1++;
+    }
+    printf("%c\n", topRight);
+
+    while (row < height - 2) 
+    {
+        printf("%c", left);
+        int collum2 = 0;
+        while (collum2 < width - 2) 
+        {
+            printf("%c", fill);
+            collum2++;
+        }
+        row++;
+        printf("%c\n", right);
+    }
+    
+    printf("%c", buttomLeft);
+    while (collum3 < width - 2) {
+        printf("%c", buttom);
+        collum3++;
+    }
+    printf("%c\n", rightButtom);
+}
+
