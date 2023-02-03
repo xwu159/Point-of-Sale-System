@@ -43,7 +43,7 @@ int getAverage(int NumberOfStudents) {
 	int counter=0;
 	int mark;
 	int sum=0;
-	printf("Enter %d students marks...\n",NumberOfStudents);
+	printf("Enter %d student marks...\n",NumberOfStudents);
 	while (counter < NumberOfStudents){
 		printf("%d> ",counter+1);
 		scanf("%d",&mark);
