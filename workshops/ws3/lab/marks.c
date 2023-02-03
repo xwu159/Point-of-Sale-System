@@ -6,7 +6,6 @@
 // Date Winter 2022
 // Author  Fardad Soleimanloo
 // Description
-//
 // This file will be replaced by another tester program during the submission
 //
 // Revision History
