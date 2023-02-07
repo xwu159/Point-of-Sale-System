@@ -4,6 +4,7 @@ Name:Xinyang Wu
 Email:xwu159@myseneca.ca
 Seneca Student ID:153821228
 Date:2023 February 6th
+
 1. After analyzing the output, I was stuck because it is kind of tricky. I have a clue after Professor Fardad told us about we need to see if the character after integer is \n. But it still takes a long time for me to figure out how to solve the problem. I am very upset and grumpy. 
 It takes me almost 2 days to think about the solution, I even dream about it. 
 First, I wrote like this, I still don’t understand why the output is not what I expected. Until I correct them, use devide scanf("%d%c", &value, &test) == 2 && test == '\n' to 2 part, then the code works. 

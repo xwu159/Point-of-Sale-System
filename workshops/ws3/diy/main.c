@@ -1,12 +1,10 @@
 //***********************************************************************//
 // IPC Workshop 3 p2: tester program
-//
 // File	main.c
 // Version 1.0
 // Date Winter 2022
 // Author  Fardad Soleimanloo
 // Description
-//
 // Revision History
 // -----------------------------------------------------------
 // Name            Date            Reason
