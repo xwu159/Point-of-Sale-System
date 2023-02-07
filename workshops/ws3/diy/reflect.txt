@@ -1,0 +1,29 @@
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Name:Xinyang Wu
+Email:xwu159@myseneca.ca
+Seneca Student ID:153821228
+Date:2023 February 6th
+
+1. After analyzing the output, I was stuck because it is kind of tricky. I have a clue after Professor Fardad told us about we need to see if the character after integer is \n. But it still takes a long time for me to figure out how to solve the problem. I am very upset and grumpy. 
+It takes me almost 2 days to think about the solution, I even dream about it. 
+First, I wrote like this, I still don’t understand why the output is not what I expected. Until I correct them, use devide scanf("%d%c", &value, &test) == 2 && test == '\n' to 2 part, then the code works. 
+int getInt() {
+    int value;
+    char test;
+    int done = 0;
+    while (!done) {
+        if (scanf("%d%c", &value, &test) == 2 && test == '\n') {
+                done = 1;
+            }
+        else if(scanf("%d%c", &value, &test) == 2 && test != '\n'){
+                printf("Enter only an integer, try again: ");
+                flushKey();  }
+        else{
+            printf("Invalid Integer, try again: ");
+            flushKey();
+        }
+    }
+    return value;
+}
+2. I still didn't fully understand what the flushKey function mean. I need to figure out what is getchar and what is putchar too, even I search on the website. I will search for some videos or ask the professor to figure it out.
