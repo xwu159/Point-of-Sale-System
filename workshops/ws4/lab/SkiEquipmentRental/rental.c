@@ -17,6 +17,7 @@ void menu(void) {
 void rental(void) {
 	int sku;
 	double price = 0.0;
+	menu();
 	do {
 		sku = getInt();
 	if (sku != 0) { 
