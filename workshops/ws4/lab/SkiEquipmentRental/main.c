@@ -26,7 +26,7 @@ int main(void) {
     menu();
     do {
         rental();
-        printf("Exit Program? (Y)es or (N)o: ");
+        printf("Exit Program? ");
     } while (!yes());
     return 0;
 }
