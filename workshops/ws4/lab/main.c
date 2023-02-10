@@ -23,10 +23,9 @@
 int main(void) {
     printf("Welcome to Seneca Ski Equipment Rentals...\n"
         "------------------------------------------\n");
-    menu();
     do {
         rental();
-        printf("Exit Program? (Y)es or (N)o: ");
+        printf("Exit Program? ");
     } while (!yes());
     return 0;
 }

@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "rental.h"
+#include "utils.h"
 void menu(void) {
 	printf("Equipment     Price      SKU\n");
 	printf("----------------------------\n");
@@ -16,8 +17,9 @@ void menu(void) {
 void rental(void) {
 	int sku;
 	double price = 0.0;
+	menu();
 	do {
-	sku = getInt();
+		sku = getInt();
 	if (sku != 0) { 
 		price += rent(sku);
 	}

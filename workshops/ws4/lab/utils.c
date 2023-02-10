@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "utils.h"
 int getInt(void) {
-	int sku=0;
+	int sku;
 	printf("Enter Sku or 0 to exit: ");
 	scanf("%d",&sku);
 	flushKey();
