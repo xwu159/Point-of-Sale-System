@@ -54,14 +54,14 @@ double rent(int sku) {
 		break;
 	case 305:
 		price = 14.30;
-		printf("Winter Pants ..... %.2lf$\n", price);
+		printf("Winter Pants .... %.2lf$\n", price);
 		break;
 	case 306:
 		price = 20.55;
 		printf("Winter Jacket .... %.2lf$\n", price);
 		break;
 	default:
-		printf("Invalid Selection!\n");
+		printf("Invalid Selection! \n");
 	}
 	return price;
 }
