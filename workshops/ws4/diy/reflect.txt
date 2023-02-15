@@ -1,0 +1,16 @@
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Name:Xinyang Wu
+Email:xwu159@myseneca.ca
+Seneca Student ID:153821228
+Date:2023 February 15th
+
+In completing this workshop, I have learned about the implementation of basic programming concepts and logic using the C programming language. The workshop covered a range of topics, including data types, variables, operators, control structures, loop functions, return and error handling. I also gained experience with file I/O and the use of header files to organize code.
+
+Specifically, for the DIY section of the workshop, I implemented a simple calculator using C, which involved using switch statements to perform different calculations based on user input. I also learned about the importance of debug to ensure that the program provides useful feedback to the user in case of invalid inputs.
+
+Throughout the workshop, I faced some difficulties in understanding some of the more advanced concepts, such as pointers and memory allocation. However, the workshop materials and exercises provided me with a solid foundation in C programming and helped me to gain confidence in my coding abilities.
+
+For the flushkey I forgot to add() at the end, then the function can not run, so the output is error first. For the switch, I forgot %% at first, so the output the is a long number. For the loop, It took me a long time to figure out.For the ^ calculation, it took me a while to figure it out. I set the original double result=0.000, so the output is always 0 which is not correct. When I found out the result *=num1, so I revise the original value to 1.000 so it works.
+
+Overall, the workshop was a great learning experience, and I learn more and feel a little comfortable with C programming than before. I plan to continue improving my skills and keep practicing in C.
