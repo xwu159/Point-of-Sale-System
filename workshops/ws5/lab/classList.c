@@ -25,11 +25,11 @@ void printReport(const char subjectCode[], const int studentNumbers[],
     const int marks[], int noOfStudents) {
     int counter=0, sum=0,ave,low= marks[0], high= marks[0];
     printf("SUBJECT MARKS REPORT!\n");
-    printf("  +---------------+  \n");
+    printf("  +---------------+\n");
     printf("  | %-14s|\n","IPC144ZAA");
-    printf("  +--------+------+  \n");
+    printf("  +--------+------+\n");
     printf("  |%7s |%5s |  \n","Std No","mark");
-    printf("  +--------+------+  \n");
+    printf("  +--------+------+\n");
     for (counter = 0;  counter < noOfStudents;  counter++) {
         printf("  | %06d | %4d |\n", studentNumbers[counter], marks[counter]);
         sum += marks[counter];
@@ -37,10 +37,10 @@ void printReport(const char subjectCode[], const int studentNumbers[],
         if (marks[counter] < low) { low = marks[counter]; }
     }
     ave = sum / noOfStudents;
-    printf("  +--------+------+  \n");
-    printf("  |%-8s|%5d |  \n","Average",ave);
-    printf("  |%-8s|%5d |  \n","Highest",high);
-    printf("  |%-8s|%5d |  \n","Lowest",low);
-    printf("  +--------+------+  \n");
+    printf("  +--------+------+\n");
+    printf("  |%-8s|%5d |\n","Average",ave);
+    printf("  |%-8s|%5d |\n","Highest",high);
+    printf("  |%-8s|%5d |\n","Lowest",low);
+    printf("  +--------+------+\n");
 
 }
