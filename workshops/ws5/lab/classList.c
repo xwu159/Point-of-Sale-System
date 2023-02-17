@@ -28,7 +28,7 @@ void printReport(const char subjectCode[], const int studentNumbers[],
     printf("  +---------------+\n");
     printf("  | %-14s|\n", subjectCode);
     printf("  +--------+------+\n");
-    printf("  |%7s |%5s |  \n","Std No","mark");
+    printf("  |%7s |%5s |\n","Std No","mark");
     printf("  +--------+------+\n");
     for (counter = 0;  counter < noOfStudents;  counter++) {
         printf("  | %06d | %4d |\n", studentNumbers[counter], marks[counter]);
