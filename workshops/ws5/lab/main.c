@@ -26,9 +26,9 @@ int main(void) {
 	int noOfStudents;
 	int mark[50];
 	int stno[50];
-	char subjectName;
+	char subjectName[10];
 	printf("Enter subject Name: ");
-	scanf("%s",&subjectName);
+	scanf("%s",subjectName);
 	printf("Enter the number of students (max 50): ");
 	scanf("%d", &noOfStudents);
 	printf("Enter %d student numbers and student marks...\n",noOfStudents);
@@ -40,6 +40,6 @@ int main(void) {
 		scanf("%d",&mark[counter]);
 		counter++; }
 	putchar('\n');
-	printReport("IPC144ZAA", stno, mark, 4);
+	printReport(subjectName, stno, mark, 4);
 	return 0;
 }

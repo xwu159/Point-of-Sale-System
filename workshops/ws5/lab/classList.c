@@ -26,7 +26,7 @@ void printReport(const char subjectCode[], const int studentNumbers[],
     int counter=0, sum=0,ave,low= marks[0], high= marks[0];
     printf("SUBJECT MARKS REPORT!\n");
     printf("  +---------------+\n");
-    printf("  | %-14s|\n","IPC144ZAA");
+    printf("  | %-14s|\n", subjectCode);
     printf("  +--------+------+\n");
     printf("  |%7s |%5s |  \n","Std No","mark");
     printf("  +--------+------+\n");
