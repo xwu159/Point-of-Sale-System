@@ -17,7 +17,6 @@
 /////////////////////////////////////////////////////////////////
 ***********************************************************************/
 
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "classList.h"
@@ -27,7 +26,7 @@ int main(void) {
 	int noOfStudents;
 	int mark[50];
 	int stno[50];
-	const char subjectName;
+	char subjectName;
 	printf("Enter subject Name: ");
 	scanf("%s",&subjectName);
 	printf("Enter the number of students (max 50): ");
