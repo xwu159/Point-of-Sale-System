@@ -20,7 +20,6 @@
 #include "classList.h"
 #include "utils.h"
 int main(void){
-    int i;
     printf("Subject Performance report\n");
     printf("-------------------------\n");
     do {
