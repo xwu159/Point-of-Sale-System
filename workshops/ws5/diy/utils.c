@@ -20,7 +20,7 @@ int getMMInt(int min, int max, const char valueName[]){
     int value;
     value = getInt();
     while (value<min || value>max) { 
-        printf("[%d<=%s<=%d], try again: _",min,valueName,max); 
+        printf("[%d<=%s<=%d], try again: ",min,valueName,max); 
         value= getInt();
     }
     return value;
