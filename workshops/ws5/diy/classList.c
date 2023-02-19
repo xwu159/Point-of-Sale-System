@@ -21,7 +21,7 @@ void subjectMarksReport(void){
         counter++;
     }
 
-
+    putchar('\n');
     printf(" SUBJECT MARKS REPORT!\n");
     printf(" +-------------------+\n");
     printf(" | %-18s|\n", subjectName);
