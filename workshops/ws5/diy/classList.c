@@ -10,7 +10,7 @@ void subjectMarksReport(void){
     char subjectName[10];
     printf("Enter subject Name: ");
     scanf("%s", subjectName);
-    printf("Enter the number of students (max 50): ");
+    printf("Enter Number of students (max 50): ");
     noOfStudents = getMMInt(1, 50, "Number of students");
 
     while (counter < noOfStudents) {
