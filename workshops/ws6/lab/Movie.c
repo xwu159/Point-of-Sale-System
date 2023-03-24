@@ -18,7 +18,6 @@ void printInWidth(const char str[], int width) {
     for (; i < width; i++) {
         putchar(' ');
     }
-
 }
 
 
