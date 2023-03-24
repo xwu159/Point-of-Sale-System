@@ -1,5 +1,6 @@
 #ifndef SDDS_MOVIE_H
 #define SDDS_MOVIE_H
+#include <stdio.h>
 
 struct Movie {
     char name[61];
