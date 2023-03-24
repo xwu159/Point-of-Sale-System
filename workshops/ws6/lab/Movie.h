@@ -1,7 +1,5 @@
-#ifndef _MOVIE_H_
-#define _MOVIE_H_
-
-#include <stdio.h>
+#ifndef SDDS_MOVIE_H
+#define SDDS_MOVIE_H
 
 struct Movie {
     char name[61];
@@ -10,7 +8,6 @@ struct Movie {
     int duration;
     char genre[61];
     float consumerRating;
-
 };
 
 int loadMovie(struct Movie* mptr, FILE* fptr);
@@ -19,5 +16,5 @@ void list(const struct Movie* mptr, int row);
 void display(const struct Movie* m);
 const char* getMovieTitle(const struct Movie* mptr);
 
-#endif 
+#endif
 

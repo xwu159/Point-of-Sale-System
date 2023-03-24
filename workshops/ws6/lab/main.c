@@ -47,7 +47,7 @@ void searchMovies(struct Movie* m, int size) {
     printf("Title: ");
     scanf("%[^\n]", title);
     for (found = 0, i = 0; i < size; i++) {
-        if (str(getMovieTitle(&m[i]), title)) {
+        if (strstr(getMovieTitle(&m[i]), title)) {
             printf("%d ============================\n", ++found);
             display(&m[i]);
         }

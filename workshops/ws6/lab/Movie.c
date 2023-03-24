@@ -3,7 +3,7 @@
 #include "Movie.h"
 
 int loadMovie(struct Movie* mptr, FILE* fptr) {
-    if (scanf(fptr, "%60[^\t]\t%d\t%3s\t%d\t%60[^\t]\t%f\n", mptr->name, &mptr->year, mptr->rating, &mptr->duration, mptr->genre, &mptr->consumerRating) == 6) {
+    if (fscanf(fptr, "%60[^\t]\t%d\t%3s\t%d\t%60[^\t]\t%f\n", mptr->name, &mptr->year, mptr->rating, &mptr->duration, mptr->genre, &mptr->consumerRating) == 6) {
         return 1;
     }
     return 0;
@@ -26,7 +26,7 @@ void printInWidth(const char str[], int width) {
 void list(const struct Movie* mptr, int row) {
     printf("|%4d | ", row);
     printInWidth(mptr->name, 20);
-    printf(" | %5d | %3s | %d:%02d | ", mptr->year, mptr->rating, mptr->duration / 60, mptr->duration % 60);
+    printf(" |%5d |%5s | %d:%02d | ", mptr->year, mptr->rating, mptr->duration / 60, mptr->duration % 60);
     printInWidth(mptr->genre, 25);
     printf(" |%5.1f |\n", mptr->consumerRating);
 }
