@@ -1,0 +1,13 @@
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Name:Xinyang Wu
+Email:xwu159@myseneca.ca
+Seneca Student ID:153821228
+Date:2023 March 27th
+
+For this workshop, I have learn data structure and pointer in C.Structure allow me to group related date in one package, pointer call be used in different function to manipulate the data. I have learned that the right way to use the safeguard in headfile, for this case, We need to include the standard input and output while most of other head files do not request.
+1."fscanf" I forgot to use fscanf at the first beginning in loadMovie function, it caused the file can not loaded. Right now, I know that if I need to scan from a file ,I need to use fscanf.For the string in fcanf, I don't need the address sign '&'.
+2.I forgot where to copy the file and put into the project, after I watched the class video again. I have figured it out. I also learned how to open, close ,read and write a file using fopen, fclose, fscanf and fprintf.
+3.I have also learned that a terminator element follows the last meaningful character in the string and identify it by the escape sequence '\0'.We need to allocate memory for one additional byte to provide room for '\0'.
+4.For the pointer, I have knowed that we can use pointer to store the address of variables and we can use the pointer display the value in that address.
+5.I also learned that "const struct" as a function parameter is good when the function doesn't modify the data of structrue. If we declare the parameter as const struct, the function will promise to not change the value in the structure. It provides more safety and helps prevent accidental modification of the structure data.
