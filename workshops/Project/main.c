@@ -17,8 +17,11 @@
 //that my professor provided to complete my project milestones.
 /////////////////////////////////////////////////////////////////
 ***********************************************************************/
+#include <stdio.h>
 #include "POS.h"
 #include "PosUI.h"
+#include "PosApp.h"
+#include "utils.h"
 int main() {
     printf("Testing POS.h defined values:\n");
     if (TAX - 0.13 < 0.00001 && 0.13 - TAX < 0.00001) {
