@@ -1,0 +1,22 @@
+/* Citation and Sources...
+Final Project Milestone1 
+Module: 1
+Filename: PosUI.c PosUI.h POS.h
+Version 1.0
+Author	Xinyang Wu
+Email: xwu159@myseneca.ca
+ID:153821228
+I have done all the coding by myself and only copied the code 
+that my professor provided to complete my project milestones.
+-----------------------------------------------------------
+For POS.h and PosUI.h
+1.I learned the use of safeguard in the headfile, it ensure that the code within ifn and endif block is only included once in the program. 
+2.I also learned how to define constants in headfile to make the code more readble and easier to maintain/modify.We don't need to use the literal value, we can just use the constants. It is easier to modify the code by changing the value of a constant compared with variables.
+For POSUI.c
+1.for this line at the beginning  input = getIntMM(0, 5, "Selection"), I forgot to use the ""for Selection, the output is null. It take me sometime to fix it.
+2.We need to analyse the output to get the logic of the program, where we need to use the loop and where to jump out of the loop.
+3.When I saw the code in PosApp.c, I saw start...., I didn't see start function at the top which object is to print and mock up the function. I thought start is a system default function...
+
+When I compile the program, the compile result reveal that there is error for main.c and utils.c, according to the error message, I add #include <stdio.h> and replace = with == in utils.c and it go through.
+
+
