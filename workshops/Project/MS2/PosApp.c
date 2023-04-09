@@ -17,7 +17,8 @@ void inventory(void) {
 	double tav = 0;
 	printf(">>>> List Items...\n");
 	listItems();
-	for (int i = 0; i < noOfItems; i++) {
+	int i;
+	for (i = 0; i < noOfItems; i++) {
 		tav += cost(&items[i]) * items[i].quantity;
 	}
 	printf("                               Total Asset: $  | %13.2lf |\n", tav);
@@ -52,7 +53,6 @@ int LoadItems(const char filename[]) {
 	}
 	noOfItems = 0; 
 	while (noOfItems < MAX_NO_ITEMS && fscanf(file, "%6[^,],%20[^,],%lf,%d,%d\n", items[noOfItems].SKU, items[noOfItems].name, &items[noOfItems].price, &items[noOfItems].taxed, &items[noOfItems].quantity) == 5) {
-		flushKey;
 		noOfItems++;
 	};
 	fclose(file);
@@ -63,7 +63,8 @@ int LoadItems(const char filename[]) {
 void listItems(void) {
 	printf(" Row | SKU    | Item Name          | Price |TX | Qty |   Total |\n");
 	printf("-----|--------|--------------------|-------|---|-----|---------|\n");
-	for (int i = 0; i < noOfItems; i++) {
+	int i;
+	for (i = 0; i < noOfItems; i++) {
 		char iName[19];
 		strncpy(iName, items[i].name, 18);
 		iName[18] = '\0';

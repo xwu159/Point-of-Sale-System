@@ -22,8 +22,10 @@
 #include "PosUI.h"
 #include "PosApp.h"
 #include "utils.h"
+
 struct Item items[MAX_NO_ITEMS];
 int noOfItems;
+
 int main() {
     runPos("posdata.csv");
     return 0;
