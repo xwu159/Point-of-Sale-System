@@ -4,6 +4,7 @@
 #include "PosApp.h"
 #include "PosUI.h"
 #include "utils.h"
+#include <string.h>
 
 void start(const char* action) {
 	printf(">>>> %s...\n", action);
