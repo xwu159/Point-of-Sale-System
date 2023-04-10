@@ -1,3 +1,13 @@
+// Final Project 
+// Utils module
+// Version 1.0
+// Date	2023-04-01
+// Author	Fardad Soleimanloo
+// Description
+// This program test the student implementation of the Item class
+// for submission.
+//
+/////////////////////////////////////////////////////////////////
 #ifndef SDDS_UTILS_H
 #define SDDS_UTILS_H
 /// <summary>
