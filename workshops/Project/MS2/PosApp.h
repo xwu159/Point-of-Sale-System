@@ -1,6 +1,9 @@
 #ifndef SDDS_POSAPP_H
 #define SDDS_POSAPP_H
 
+extern struct Item items[MAX_NO_ITEMS];
+extern int noOfItems;
+
 struct Item
 {
 	char SKU[MAX_SKU_LEN+1];
@@ -9,8 +12,7 @@ struct Item
 	int taxed;
 	int quantity;
 }; 
-extern struct Item items[MAX_NO_ITEMS];
-extern int noOfItems;
+
 void start(const char* action);
 void inventory(void);
 void addItem(void);

@@ -6,7 +6,7 @@
 #include "utils.h"
 #include <string.h>
 
-extern struct Item items[];
+extern struct Item items[MAX_NO_ITEMS];
 extern int noOfItems;
 
 void start(const char* action) {
