@@ -6,6 +6,9 @@
 #include "utils.h"
 #include <string.h>
 
+extern struct Item items[];
+extern int noOfItems;
+
 void start(const char* action) {
 	printf(">>>> %s...\n", action);
 }
