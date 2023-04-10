@@ -1,6 +1,8 @@
 #ifndef SDDS_POSAPP_H
 #define SDDS_POSAPP_H
 
+#include "POS.h"
+
 extern struct Item items[MAX_NO_ITEMS];
 extern int noOfItems;
 
