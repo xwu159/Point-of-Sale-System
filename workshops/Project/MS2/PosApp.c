@@ -6,8 +6,8 @@
 #include "utils.h"
 #include <string.h>
 
-extern struct Item items[MAX_NO_ITEMS];
-extern int noOfItems;
+struct Item items[MAX_NO_ITEMS];
+int noOfItems=0;
 
 void start(const char* action) {
 	printf(">>>> %s...\n", action);
