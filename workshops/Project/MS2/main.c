@@ -19,8 +19,8 @@
 ***********************************************************************/
 #include <stdio.h>
 #include "POS.h"
-#include "PosUI.h"
 #include "PosApp.h"
+#include "PosUI.h"
 #include "utils.h"
 
 struct Item items[MAX_NO_ITEMS];
