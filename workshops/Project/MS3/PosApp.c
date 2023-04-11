@@ -14,14 +14,14 @@ void start(const char* action) {
 }
 
 void saveItems(const char filename[]) {
-	start("Loading Items");
+	start("Saving Items");
 	printf(">>>> Done!...\n");
 	FILE* fp = NULL;
 	fp = fopen(filename, "w");
 	if (fp != NULL) {
 		int i = 0;
 		for (i = 0; i < noOfItems; i++) {
-			fprintf(fp, "%s,%s,%2.f,%d,%d\n", items[i].SKU, items[i].name, items[i].price, items[i].taxed, items[i].quantity);
+			fprintf(fp, "%s,%s,%.2f,%d,%d\n", items[i].SKU, items[i].name, items[i].price, items[i].taxed, items[i].quantity);
 		}
 		fclose(fp);
 	}
