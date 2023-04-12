@@ -8,6 +8,7 @@
 // for submission.
 //
 /////////////////////////////////////////////////////////////////
+#include <stdio.h>
 #include "PosApp.h"
 int main() {
    struct Item I[6] = {
