@@ -1,0 +1,26 @@
+/***********************************************************************
+// IPC Project MS3 : tester program
+//
+// File	main.c
+// Version 1.0
+// Date Winter 2022
+// Author  Fardad Soleimanloo
+// Description
+//
+//  Add the code required as commented below
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Email                   ID
+//Xinyang Wu    April 11th,2023    xwu159@myseneca.ca   153821228
+//I have done all the coding by myself and only copied the code
+//that my professor provided to complete my project milestones.
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+1.MS1
+(1)fprintf(fp, "%s,%s,%2.f,%d,%d\n", items[i].SKU, items[i].name, items[i].price, items[i].taxed, items[i].quantity);, for SKU argument, I used %d at first begining and it doesn't work, because in PosApp.h the struct Item, I define the SKU in char type, after change %s it is OK.
+(2)fp = fopen(filename, "w") for this line, I just used fp = fopen("posdata.csv", "w") first, I can not specify the specific filename-posdata.csv. what if we change another file? Now I know the filename is passed as an argument to the function.
+(3)I have also learned syntax that how to write a file 
+2.MS2
+(1)I forgot to initialize the cString first,and fix it later.
+(2)printf("| %-14s|%10.2f | %3s |\n",cString,cost(item), item->taxed == 1 ? "Yes" : "   ");, I use cost(&item) first, I realized item is a pointer already. And for this project, I solidate the concept about the formating and conditional expression.
