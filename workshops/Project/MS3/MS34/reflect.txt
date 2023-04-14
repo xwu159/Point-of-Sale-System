@@ -27,4 +27,4 @@
 3.MS3
 for the Price+tax part, I have no clue how to mark the type of cost at the first, I use printf("%-13s%.2lf\n", "Price + tax:", item->taxed==1?cost(item):"N/A")first, but it generate an error as N/A is string, I try to modify to printf("%-13s%s\n", "Price + tax:", item->taxed==1?double(cost(item)):"N/A"),it doesn't work either;I realized that the conditional expression can only apply to same type of data,finally I found a way to use to if condition to seperate the output.
 MS34
-For this milestone, I was stuck when I enter a newline, it doesn't show the summary, I know it is the buffer problem. It took me a long time to fix it.
+For this milestone, I was stuck when I enter a newline, it doesn't show the summary, I know it is the buffer problem. It took me a long time to fix it.I use scanf with %[^\n] format to read input until a newline character is encountered and then flushes the input buffer using flushKey.

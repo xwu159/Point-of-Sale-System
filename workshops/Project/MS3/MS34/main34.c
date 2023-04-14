@@ -1,13 +1,22 @@
-// Final Project 
-// Student POS App M34 tester program
-// Version 1.0
-// Date	2023-04-01
-// Author	Fardad Soleimanloo
-// Description
-// This program test the student implementation of the Item class
-// for submission.
+/***********************************************************************
+// IPC Project MS3 : tester program
 //
+// File	main.c
+// Version 1.0
+// Date Winter 2023
+// Author  Fardad Soleimanloo
+// Description
+//
+//  Add the code required as commented below
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Email                   ID
+//Xinyang Wu    April 13th,2023    xwu159@myseneca.ca   153821228
+//I have done all the coding by myself and only copied the code
+//that my professor provided to complete my project milestones.
 /////////////////////////////////////////////////////////////////
+***********************************************************************/
 #include <stdio.h>
 #include "PosApp.h"
 
