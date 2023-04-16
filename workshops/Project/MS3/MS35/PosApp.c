@@ -83,7 +83,7 @@ void POS(void) {
 		
 	} 
 	
-	if (billCount > 0&&!done)
+	if (billCount > 0)
 	{
 		printf("+---------------v-----------v-----+\n");
 		printf("| Item          |     Price | Tax |\n");
