@@ -69,7 +69,7 @@ void POS(void) {
 		{
 			printf("Item sold out!\n");
 		}
-		else if (index == -2 || items[index].SKU[0] == '\0')
+		else if (index == -2)
 		{
 			done = 1;
 		}
@@ -83,7 +83,7 @@ void POS(void) {
 		
 	} 
 	
-	if (billCount > 0)
+	if (billCount > 0&&!done)
 	{
 		printf("+---------------v-----------v-----+\n");
 		printf("| Item          |     Price | Tax |\n");
