@@ -65,7 +65,7 @@ void POS(void) {
 		{ 
 			printf("SKU not found!\n");
 		}
-		else if (items[index].quantity == 0)
+		else if (index != -2&&items[index].quantity == 0)
 		{
 			printf("Item sold out!\n");
 		}
