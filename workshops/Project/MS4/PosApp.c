@@ -188,6 +188,8 @@ int search(void) {
 }
 
 int selectItems(void) {
+	printf("Select an item:\n");
+	printf("-----v--------v--------------------v-------v---v-----v---------v\n");
 	listItems();
 	int value;
 	printf("Select row: ");
