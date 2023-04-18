@@ -1,12 +1,17 @@
 // Final Project 
 // Student POS App MS 4 and 5 tester program
 // Version 1.0
-// Date	2023-04-01
+// Date	2023-04-018
 // Author	Fardad Soleimanloo
 // Description
 // This program test the student implementation of the Item class
 // for submission.
-//
+// -----------------------------------------------------------
+// Name            Date            Email                   ID
+//Xinyang Wu    April 18th,2023    xwu159@myseneca.ca   153821228
+//I have done all the coding by myself and only copied the code
+//that my professor provided to complete my project milestones.
+/////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
