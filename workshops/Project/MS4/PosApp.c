@@ -55,7 +55,7 @@ void stockItem(void) {
 	start("Stock Items");
 	index=selectItems();
 	printf("Quantity to add: ");
-	add=getIntMM(1,MAX_STOCK_NUMBER-items[index-1].quantity, "Quantity to add");
+	add=getIntMM(1,MAX_STOCK_NUMBER-items[index-1].quantity, "Quantity to Add");
 	items[index - 1].quantity += add;
 	printf(">>>> Done!...\n");
 }
