@@ -1,0 +1,11 @@
+/***********************************************************************
+// IPC Project MS5 : tester program
+// Name            Date            Email                   ID
+//Xinyang Wu    April 18th,2023    xwu159@myseneca.ca   153821228
+//I have done all the coding by myself and only copied the code
+//that my professor provided to complete my project milestones.
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+1.It took me sometime to think about the logic of the loop, how to use noOfItems of the file to implement the addItem function. Also I need to figure out the logic how to delete a row. 
+2.for addItems function, I just use scanf("%18s",name) first, it cause when user input Red Apples,it only scan red instead, I change to read until enterkey, then it works.
+3.It is easy to ignore noOfItems--when implement the removeItems function.
