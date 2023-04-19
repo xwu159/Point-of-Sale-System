@@ -20,7 +20,7 @@ void pause(void) {
 int getIntMM(int min, int max, const char valueName[]) {
    int value = getInt();
    while(value < min || value > max) {
-      printf("[%d<=%s<%d], retry: ", min, valueName, max);
+      printf("[%d<=%s<=%d], retry: ", min, valueName, max);
       value = getInt();
    }
    return value;
