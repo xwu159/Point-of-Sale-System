@@ -90,7 +90,7 @@ void removeItem(void) {
 		items[i] = items[i+1];
 	}
 	noOfItems--;
-	printf(" >>>> Done!...\n");
+	printf(">>>> Done!...\n");
 }
 void stockItem(void) {
 	int index;
